@@ -22,4 +22,11 @@ public class TopicService {
 		
 	}
 	
+	public Topic getTopic(String id){
+		
+		// Just Lambda.. get with it.
+		return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+		
+	}
+	
 }
