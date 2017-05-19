@@ -9,6 +9,8 @@ public class Topic {
 	private String name;
 	private String description;
 	
+	protected Topic(){
+	}
 	
 	public Topic(String id, String name, String description) {
 		super();
@@ -16,6 +18,5 @@ public class Topic {
 		this.name = name;
 		this.description = description;
 	}
-	
 	
 }
