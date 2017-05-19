@@ -1,7 +1,9 @@
-package javabrains.starter;
+package javabrains;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+//This class must be located in the top hierarchy of packages
 
 @SpringBootApplication
 public class Application {
