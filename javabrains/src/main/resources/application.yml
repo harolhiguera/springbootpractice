@@ -1,5 +1,5 @@
-// For more common properties:
-// https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+#For more common properties:
+#https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 
 server:
     port: 5000
