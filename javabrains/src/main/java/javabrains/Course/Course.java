@@ -2,6 +2,7 @@ package javabrains.Course;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 import javabrains.topic.Topic;
 import lombok.Data;
@@ -15,6 +16,7 @@ public class Course {
 	private String name;
 	private String description;
 	
+	@ManyToOne // Because there could be many courses associated with to one topic
 	private Topic topic;
 	
 	protected Course(){
